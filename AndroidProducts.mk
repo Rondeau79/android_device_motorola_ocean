@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_ocean.mk
+    $(LOCAL_DIR)/viper_ocean.mk
