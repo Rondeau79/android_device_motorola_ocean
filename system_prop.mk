@@ -121,4 +121,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Time-Services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
+    
+# Disable privapp 
+PRODUCT_PROPERTY_OVERRIDES += \
+           ro.control_privapp_permissions=disable
+
+    
+    
 
