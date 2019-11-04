@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -61,7 +61,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := lineage_ocean
+PRODUCT_NAME := viper_ocean
 PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
