@@ -7,6 +7,4 @@
 /firmware(/.*)?          u:object_r:firmware_file:s0
 /persist(/.*)?           u:object_r:persist_file:s0
 
-# LiveDisplay HAL
-/system/bin/hw/lineage\.livedisplay@2\.0-service-sdm                   u:object_r:shal_livedisplay_default_exec:s0
-/system/bin/hw/lineage\.livedisplay@2\.0-service-sysfs                 u:object_r:shal_livedisplay_default_exec:s0
+
