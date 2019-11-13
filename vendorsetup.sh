@@ -1,1 +1,1 @@
-add_lunch_combo lineage_ocean-userdebug
+add_lunch_combo validus_ocean-userdebug
