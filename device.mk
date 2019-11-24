@@ -148,7 +148,11 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     wificond \
     wpa_supplicant
-
+    
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.msm8953
+    
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/bin/android.hardware.wifi@1.0-service:system/bin/hw/android.hardware.wifi@1.0-service \
@@ -158,4 +162,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/lib/libwpa_client.so:system/lib/libwpa_client.so \
     $(LOCAL_PATH)/wifi/lib64/libcld80211.so:system/lib64/libcld80211.so \
     $(LOCAL_PATH)/wifi/lib64/libwifi-hal.so:system/lib64/libwifi-hal.so \
-    $(LOCAL_PATH)/wifi/lib64/libwpa_client.so:system/lib64/libwpa_client.so
+    $(LOCAL_PATH)/wifi/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
+    $(LOCAL_PATH)/prebuilts/light/android.hardware.light@2.0-service:system/bin/hw/android.hardware.light@2.0-service \
+    $(LOCAL_PATH)/prebuilts/light/android.hardware/light@2.0-service.rc:/system/etc/init/android.hardware@2.0-service.rc
+    
