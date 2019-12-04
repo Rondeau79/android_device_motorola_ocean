@@ -40,7 +40,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
-PRODUCT_PACKAGES += \
+PRODUCT_HOST_PACKAGES += \
     otapreopt_script \
     brillo_update_payload \
     update_engine \
