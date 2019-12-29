@@ -14,5 +14,7 @@
 # limitations under the License.
 #
 
+LOCAL_PATH := device/motorola/channel/
+
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ocean.mk
+    $(LOCAL_DIR)/omni_channel.mk
